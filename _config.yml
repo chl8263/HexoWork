@@ -9,7 +9,7 @@ description: ''
 keywords:
 author: "Ewan"
 language: en
-timezone: 'US/Seattle'
+timezone: 'US/Pacific'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

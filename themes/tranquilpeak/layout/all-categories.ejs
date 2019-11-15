@@ -29,6 +29,11 @@ function displayCategoriesAndPosts(category) {
     html += '<ul class="archive-posts">';
     // create html for its posts
     posts.sort('date', 'desc').forEach(function(post) {
+        // s : To see only the lowest categories
+        if (childCategories.length > 0) {
+            return;
+        }
+        // e : To see only the lowest categories
         html += '<li class="archive-post">';
         html += '<a class="archive-post-title" href="' + url_for(post.path) + '">';
         html += post.title || '(' + __('post.no_title') + ')';
@@ -96,25 +101,24 @@ function displayCategories(category) {
 <div id="categories-archives" class="main-content-wrap">
     <form id="filter-form" action="##">
         <input name="category" type="text" class="form-control input--xlarge"
-               placeholder="<%= __('global.search_category')  %>" autofocus="autofocus">
+            placeholder="<%= __('global.search_category')  %>" autofocus="autofocus">
     </form>
-    <h5 class="archive-result text-color-base text-xlarge"
-        data-message-zero="<%= __('global.categories_found.zero') %>"
+    <h5 class="archive-result text-color-base text-xlarge" data-message-zero="<%= __('global.categories_found.zero') %>"
         data-message-one="<%= __('global.categories_found.one') %>"
         data-message-other="<%= __('global.categories_found.other') %>"></h5>
 
-        <section class="boxes">
+    <section class="boxes">
         <% site.categories.sort('name').each(function(category) { %>
-            <% if (!category.parent) { %>
-                <%- displayCategories(category) %>
-            <% } %>
+        <% if (!category.parent) { %>
+        <%- displayCategories(category) %>
+        <% } %>
         <% }); %>
     </section>
     <section class="boxes">
         <% site.categories.sort('name').each(function(category) { %>
-            <% if (!category.parent) { %>
-                    <%- displayCategoriesAndPosts(category) %>
-            <% } %>
+        <% if (!category.parent) { %>
+        <%- displayCategoriesAndPosts(category) %>
+        <% } %>
         <% }); %>
     </section>
 </div>

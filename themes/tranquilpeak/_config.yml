@@ -32,7 +32,7 @@ sidebar:
     menu:
         home:
             title: global.home
-            url: /
+            url: /_posts
             icon: fa fa-home
         categories:
             title: global.categories
@@ -59,37 +59,37 @@ sidebar:
     author_links:
         github:
             title: global.github
-            url: https://github.com/
+            url: https://github.com/chl8263
             icon: fab fa-github
-        stack_overflow:
-            title: global.stack_overflow
-            url: http://stackoverflow.com/users
-            icon: fab fa-stack-overflow
-        twitter:
-            title: global.twitter
-            url: https://twitter.com/
-            icon: fab fa-twitter
-        facebook:
-            title: global.facebook
-            url: https://facebook.com/
-            icon: fab fa-facebook
-        google_plus:
-            title: global.google_plus
-            url: https://plus.google.com/
-            icon: fab fa-google-plus
-        linked_in:
-            title: global.linkedin
-            url: https://www.linkedin.com/profile/
-            icon: fab fa-linkedin
-        mail:
-            title: global.mail
-            url: mailto
-            icon: fa fa-envelope
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: fa fa-rss
+        #stack_overflow:
+        #    title: global.stack_overflow
+        #    url: http://stackoverflow.com/users
+        #    icon: fab fa-stack-overflow
+        #twitter:
+        #    title: global.twitter
+        #    url: https://twitter.com/
+        #    icon: fab fa-twitter
+        #facebook:
+        #    title: global.facebook
+        #    url: https://facebook.com/
+        #    icon: fab fa-facebook
+        #google_plus:
+        #    title: global.google_plus
+        #    url: https://plus.google.com/
+        #    icon: fab fa-google-plus
+        #linked_in:
+        #    title: global.linkedin
+        #    url: https://www.linkedin.com/profile/
+        #    icon: fab fa-linkedin
+        #mail:
+        #    title: global.mail
+        #    url: mailto
+        #    icon: fa fa-envelope
+    #rss:
+    #    rss:
+    #        title: global.rss
+    #        url: /atom.xml
+    #        icon: fa fa-rss
 
 
 # --------------------
