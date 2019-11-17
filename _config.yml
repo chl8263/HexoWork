@@ -98,3 +98,13 @@ deploy:
   type: git
   repo: https://github.com/chl8263/chl8263.github.io.git
   branch: master
+
+# No follow
+nofollow:
+  enable: true
+  exclude:
+    - https://chl8263.github.io
+    - https://naver.com
+
+sitemap:
+  path: sitemap.xml
