@@ -10,6 +10,7 @@ Let's find out the number and string in JavaScript.
 
 <br/>
 
+
 ## Number
 
 JavaScript recognize number without single or double quotes as number.
