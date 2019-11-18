@@ -6,7 +6,7 @@ categories: ["Develop","javascript"]
 ---
 
 Let's find out Variable, comment in JavaScript.
-<!-- exerpt -->
+<!-- more -->
 
 ## Variable
 >> Variable are containers that hold values when you need to keep them.

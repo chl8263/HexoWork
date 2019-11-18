@@ -6,7 +6,7 @@ categories: ["Develop","javascript"]
 ---
 
 Let's find out the number and string in JavaScript.
-<!-- exerpt -->
+<!-- more -->
 
 <br/>
 

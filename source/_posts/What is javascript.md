@@ -6,7 +6,7 @@ categories: ["Develop","javascript"]
 ---
 
 >>__Javascript is a scripting or programming language that allow you to implement complex things on web pages.__
-<!-- exerpt -->
+<!-- more -->
 It can able to disply timely comtent updates, interactive maps, animated 2D/3D graphics,
 scrolling video jukeboxes, etc.
 

@@ -32,7 +32,7 @@ sidebar:
     menu:
         home:
             title: global.home
-            url: /_posts
+            url: /
             icon: fa fa-home
         categories:
             title: global.categories
@@ -42,10 +42,10 @@ sidebar:
             title: global.tags
             url: /all-tags
             icon: fa fa-tags
-        archives:
-            title: global.archives
-            url: /all-archives
-            icon: fa fa-archive
+        # archives:
+        #     title: global.archives
+        #     url: /all-archives
+        #     icon: fa fa-archive
         search:
             title: global.search
             url: /#search
@@ -187,7 +187,9 @@ tag_pagination: true
 # ---------------
 
 # Your Disqus shortname
-disqus_shortname:
+disqus:
+  enable: true
+  shortname: https-chl8263-github-io
 # Your Gitment information
 # Read https://github.com/imsun/gitment#get-started to setup Gitment
 gitment:
@@ -236,7 +238,7 @@ gitalk:
 # -------------------
 
 # Your Google analystics web property ID : UA-XXXXX-X
-google_analytics_id:
+google_analytics_id: UA-152693678-1
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
 baidu_analytics_id:
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
@@ -278,6 +280,11 @@ sharing_options:
     google_plus:
         icon: "fab fa-google-plus"
         url: "https://plus.google.com/share?url={{post.permalink}}"
+
+#plugins:
+  #google_analytics: UA-152693678-1
+
+
     # Asian social networks
 #    weibo:
 #        title: "Weibo"

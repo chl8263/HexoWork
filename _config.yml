@@ -108,3 +108,9 @@ nofollow:
 
 sitemap:
   path: sitemap.xml
+
+# feed:
+#   type: atom
+#   path: feed.xml
+#   limit: 20
+#   hub:

@@ -123,7 +123,7 @@ var publisher = '';
         <link rel="icon" href="<%= resolve_asset_url(theme.image_dir, theme.favicon) %>">
     <% } %>
     <% if ((config.feed) && (config.feed.path.length)) { %>
-        <link rel="alternate" type="application/atom+xml" title="RSS" href="<%- url_for(config.feed.path) %>">
+        
     <% } %>
     <%- json_ld() %>
     <%- open_graph({
