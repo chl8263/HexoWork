@@ -23,4 +23,23 @@ SELECT DNAME, EMPNO,ENAME
 
 {% asset_img 2.PNG %}
 ~~~
+SELECT DNAME, EMPNO,ENAME
+  FROM emp
+ INNER JOIN dept
+    ON emp.deptno = dept.deptno
+ ORDER BY DNAME
 ~~~
+
+### 3. Print employee information in the department location 'DALLAS', 'CHICAGO' as in the example below.
+
+{% asset_img 3.PNG %}
+~~~
+SELECT dept.loc, emp.deptno, emp.ename
+  FROM emp
+ INNER JOIN dept
+    ON emp.deptno = dept.deptno
+ WHERE dept.loc IN ('DALLAS', 'CHICAGO')
+ ORDER By dept.loc
+~~~
+
+### 4. 
