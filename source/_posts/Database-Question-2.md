@@ -5,7 +5,6 @@ tags: ["Oracle"]
 categories: ["Develop","Oracle"]
 ---
 
-Oracle Database practice question 2.
 <!-- more -->
 
 ### 1. Print DNAME, EMPNO, ENAME for each employee from EMP table as in the example below. (Do not print employee without department when joining tables)
@@ -20,4 +19,8 @@ SELECT DNAME, EMPNO,ENAME
  ORDER BY DNAME
 ~~~
 
-### 2.
+### 2. Print DNAME, EMPNO, ENAME for eaxh employee from EMP table as in the example below. (Print employee without department when joining tables)
+
+{% asset_img 2.PNG %}
+~~~
+~~~
