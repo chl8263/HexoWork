@@ -32,12 +32,12 @@ sidebar:
     menu:
         home:
             title: global.home
-            url: /
+            url: /all-categories
             icon: fa fa-home
         categories:
             title: global.categories
             url: /all-categories
-            icon: fa fa-bookmark
+            icon: fa fa-code
         tags:
             title: global.tags
             url: /all-tags
