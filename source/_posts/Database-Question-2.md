@@ -19,7 +19,7 @@ SELECT DNAME, EMPNO,ENAME
  ORDER BY DNAME
 ~~~
 
-### 2. Print DNAME, EMPNO, ENAME for eaxh employee from EMP table as in the example below. (Print employee without department when joining tables)
+### 2. Print DNAME, EMPNO, ENAME for each employee from EMP table as in the example below. (Print employee without department when joining tables)
 
 {% asset_img 2.PNG %}
 ~~~
@@ -42,4 +42,19 @@ SELECT dept.loc, emp.deptno, emp.ename
  ORDER By dept.loc
 ~~~
 
-### 4. 
+### 4. Print max SAL value in the department as in the example below. (Do not print employee without department)
+
+{% asset_img 4.PNG %}
+~~~
+SELECT deptno, MAX(sal) as SAL
+  FROM emp
+ GROUP BY deptno
+~~~
+
+### 5. Print employee information receiving the max SAL value in the department as the example below.
+
+{% asset_img 5.PNG %}
+~~~
+
+
+~~~
