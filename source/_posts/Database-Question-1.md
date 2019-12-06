@@ -5,6 +5,8 @@ tags: ["Oracle"]
 categories: ["Develop","Oracle"]
 ---
 
+Database Question 1
+
 <!-- more -->
 
 This Database practice question using the 'SCOTT' in oracle.

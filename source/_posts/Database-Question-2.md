@@ -5,6 +5,8 @@ tags: ["Oracle"]
 categories: ["Develop","Oracle"]
 ---
 
+Database Question 2
+
 <!-- more -->
 
 ### 1. Print DNAME, EMPNO, ENAME for each employee from EMP table as in the example below. (Do not print employee without department when joining tables)
@@ -51,10 +53,15 @@ SELECT deptno, MAX(sal) as SAL
  GROUP BY deptno
 ~~~
 
-### 5. Print employee information receiving the max SAL value in the department as the example below.
-
+### 5. Print employee information receiving the max SAL value in the department as the example below. (Except employee without department)
 {% asset_img 5.PNG %}
 ~~~
-
-
+SELECT deptno, sal ,empno , ename, job
+  FROM emp
+ WHERE (deptno, sal) IN (SELECT deptno, MAX(sal)
+                           FROM emp
+                          WHERE deptno IS NOT NULL
+                          GROUP BY deptno
+                        )
+ ORDER BY deptno
 ~~~
