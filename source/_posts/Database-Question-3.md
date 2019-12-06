@@ -24,6 +24,14 @@ SELECT empno, ename, sal, CASE
  ORDER BY grade
 ~~~
 
+~~~
+SELECT empno, ename, sal, grade
+  FROM emp
+  JOIN salgrade
+    ON emp.sal >= salgrade.losal AND emp.sal <= salgrade.hisal
+ ORDER BY grade ASC
+~~~
+
 ### 2.Print employee information which over average SAL at EMP table.
 
 {% asset_img 2.PNG %}
