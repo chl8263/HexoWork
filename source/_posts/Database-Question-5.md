@@ -37,5 +37,5 @@ SELECT dname,
   FROM DEPT
 ~~~
 
-### 3. Print
+### 3. Print 
 {% asset_img 3.PNG %}
