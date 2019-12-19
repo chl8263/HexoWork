@@ -55,9 +55,15 @@ SELECT empno,
 
 ~~~
 
-### 4. Print the person with highest person and lowest person each in solution number 3.
+### 5. Print the person with highest person and lowest person each in solution number 3.
 {% asset_img 5.PNG %}
 
 ~~~
-
+SELECT empno,
+       hiredate,
+       MAX(TO_DATE('20060805', 'YYYYMMDD') - TRUNC(hiredate)) AS WORK_DAY
+  FROM emp
+ GROUP BY empno,
+          hiredate
+          WORK_DAY
 ~~~
