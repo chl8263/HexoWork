@@ -1,11 +1,11 @@
 ---
-title: Database Question 5
+title: SQL Quiz 5
 date: 2019-12-09 00:25:02
 tags: ["Oracle"]
 categories: ["Develop","Oracle"]
 ---
 
-Database Question 5
+SQL Quiz 5
 
 <!-- more -->
 
@@ -22,7 +22,7 @@ SELECT empno,
        LEAST(NVL(empno,0),
        NVL(mgr,0),
        NVL(sal,0)) AS MIN_VALUE
-  from emp
+  FROM emp
 ~~~
 
 ### 2. In DEPT table, if column length is over 6 digit, show them 5 digit and add '..' to the back.

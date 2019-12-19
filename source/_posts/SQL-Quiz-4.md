@@ -1,11 +1,11 @@
 ---
-title: Database Question 4
+title: SQL Quiz 4
 date: 2019-12-05 23:50:47
 tags: ["Oracle"]
 categories: ["Develop","Oracle"]
 ---
 
-Database Question 4
+SQL Quiz 4
 
 <!-- more -->
 
