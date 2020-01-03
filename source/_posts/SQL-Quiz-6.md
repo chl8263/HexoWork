@@ -54,6 +54,3 @@ SELECT job,
 CREATE TABLE EMP_BAK_TABLE
         AS SELECT * FROM emp;
 ~~~
-
-
-### 6. Create 5000 number of test data in EMP table.
