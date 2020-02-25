@@ -5,7 +5,7 @@ tags: ["Spring"]
 categories: ["Develop","Spring"]
 ---
 
-### What is IOC ResourceLoader?
+What is IOC ResourceLoader?
 
 <!-- more -->
 

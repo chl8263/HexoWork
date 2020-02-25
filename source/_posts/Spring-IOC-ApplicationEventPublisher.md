@@ -5,7 +5,7 @@ tags: ["Spring"]
 categories: ["Develop","Spring"]
 ---
 
-### What is ApplicationEventPublisher?
+What is ApplicationEventPublisher?
 
 <!-- more -->
 

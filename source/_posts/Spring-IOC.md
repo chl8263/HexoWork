@@ -5,7 +5,7 @@ tags: ["Spring"]
 categories: ["Develop","Spring"]
 ---
 
-### What is Spring IOC?
+What is Spring IOC?
 
 <!-- more -->
 

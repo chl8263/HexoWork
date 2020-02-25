@@ -5,7 +5,7 @@ tags: ["Spring"]
 categories: ["Develop","Spring"]
 ---
 
-### What is DataBinding?
+What is DataBinding?
 
 <!-- more -->
 

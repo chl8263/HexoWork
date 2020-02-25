@@ -5,7 +5,7 @@ tags: ["Spring"]
 categories: ["Develop","Spring"]
 ---
 
-### What is IOC Autowired?
+What is IOC Autowired?
 
 <!-- more -->
 

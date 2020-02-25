@@ -5,7 +5,7 @@ tags: ["SpringBoot"]
 categories: ["Develop","SpringBoot"]
 ---
 
-### How configure spring dependency?
+How configure spring dependency?
 
 <!-- more -->
 

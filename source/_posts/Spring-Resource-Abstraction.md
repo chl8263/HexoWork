@@ -5,7 +5,7 @@ tags: ["Spring"]
 categories: ["Develop","Spring"]
 ---
 
-### What is ResourceAbstraction?
+What is ResourceAbstraction?
 
 <!-- more -->
 

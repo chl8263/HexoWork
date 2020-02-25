@@ -5,7 +5,7 @@ tags: ["Spring"]
 categories: ["Develop","Spring"]
 ---
 
-### What is IOC MessageSource?
+What is IOC MessageSource?
 
 <!-- more -->
 

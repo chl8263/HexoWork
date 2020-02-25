@@ -5,7 +5,7 @@ tags: ["Spring"]
 categories: ["Develop","Spring"]
 ---
 
-### What is IOC Profile?
+What is IOC Profile?
 
 <!-- more -->
 
