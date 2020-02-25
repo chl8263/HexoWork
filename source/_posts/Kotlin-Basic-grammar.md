@@ -4,7 +4,7 @@ date: 2020-02-24 23:51:23
 tags: ["Kotlin"]
 categories: ["Develop","Kotlin"]
 ---
-Summarize basic grammar about Kotlin.
+Summarize of Kotlin basic grammar.
 
 <!-- more -->
 
